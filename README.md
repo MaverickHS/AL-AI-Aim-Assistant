@@ -51,8 +51,11 @@ python apex-no-gui.py --vid 0x1234 --pid 0x5678 --pcode 0x01
 
 ## Project Structure
 `apex-no-gui.py`: Main application with screen capture, detection, and aim logic
+
 `mouse_instruct.py`: Low-level HID communication with Arduino mouse
+
 `best_8s.pt`: Custom-trained YOLOv8 model (not included in repo)
+
 `hidapi.dll`: Windows HID communication library
 
 # How It Works
