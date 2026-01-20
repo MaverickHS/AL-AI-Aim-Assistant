@@ -23,14 +23,17 @@ This project is for **educational and research purposes only**. Using automated 
 ```bash
 git clone https://github.com/yourusername/apex-ai-aim.git
 cd apex-ai-aim
+```
 
 2. Install required packages:
 ```bash
 pip install ultralytics bettercam keyboard colorama numpy
+```
 
 3. Install HID library for Arduino communication:
 ```bash
 pip install hidapi
+```
 
 4. Place your trained YOLOv8 model (best_8s.pt) in the project root directory.
 
@@ -39,6 +42,7 @@ pip install hidapi
 2. Run the main script with your device identifiers:
 ```bash
 python apex-no-gui.py --vid 0x1234 --pid 0x5678 --pcode 0x01
+```
 
 ## Controls
 **ALT**: Enable magnet aim (smooth tracking)
